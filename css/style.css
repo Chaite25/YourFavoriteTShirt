@@ -56,6 +56,10 @@ img {
     position: relative;
 }
 
+.container {
+   width: auto !important;
+}
+
 /*  ================================
         global area end
     ================================ */
