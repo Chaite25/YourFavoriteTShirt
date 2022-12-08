@@ -614,6 +614,11 @@ img {
     border-radius: 5px !important;
 }
 
+.csslider > .navigation label:nth-child(11),
+.csslider > .navigation label:nth-child(12){
+ display: none;
+}
+
 /*  ================================
         product area end
     ================================ */
