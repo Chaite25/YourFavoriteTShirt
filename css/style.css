@@ -33,17 +33,6 @@ a {
 .main-div {
     overflow: hidden;
     position: relative;
-    background-color: #000;
-}
-
-.main-div::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, .6);
-    content: "";
-    width: 100%;
-    height: 100%;
 }
 
 img {
@@ -70,7 +59,6 @@ img {
 
 .header-top {
     overflow: hidden;
-    background-color: #000;
 }
 
 .wel-come {
@@ -83,14 +71,14 @@ img {
 }
 
 .wel-come h4 {
-    color: #fff;
+    color: #000;
     font-size: 18px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 }
 
 .wel-come a {
-    color: #fff !important;
+    color: #000 !important;
     text-decoration: underline;
 }
 
@@ -259,7 +247,7 @@ img {
     float: right;
     padding: 8px 0;
     display: inline-block;
-    color: #fff;
+    color: #000;
     transition: 0.5s;
     text-transform: capitalize;
     font-family: 'Open Sans', sans-serif;
@@ -293,7 +281,7 @@ img {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #000;
 }
 
 .pb {
@@ -898,7 +886,7 @@ section.tab-section {
 }
 
 .feature-products h3 {
-    color: #fff;
+    color: #000;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -911,6 +899,7 @@ section.tab-section {
 
 .feature-hover:hover.feature-hover h3 {
     background-color: #C31F28;
+    color: #fff;
 }
 
 /*  ================================
@@ -928,7 +917,7 @@ section.tab-section {
     font-size: 20px;
     position: relative;
     padding-bottom: 20px;
-    color: #fff;
+    color: #000;
     font-weight: bold;
     display: inline-block;
 }
@@ -946,11 +935,11 @@ section.tab-section {
     margin: 0 0 20px;
     line-height: 18px;
     font-size: 14px;
-    color: #fff;
+    color: #000;
 }
 
 .footer-widget a {
-    color: #fff !important;
+    color: #000 !important;
     margin: 0 0 20px;
     display: inline-block;
     vertical-align: top;
@@ -986,7 +975,7 @@ section.tab-section {
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
-    color: #fff;
+    color: #000;
     font-weight: bold;
 }
 
@@ -1038,7 +1027,7 @@ section.tab-section {
 .copy-right p {
     padding: 0;
     margin: 0;
-    color: #fff;
+    color: #000;
     font-size: 18px;
 }
 
