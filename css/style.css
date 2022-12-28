@@ -473,14 +473,12 @@ img {
 
 .csslider > .navigation label {
     background: transparent none repeat scroll 0 0;
-    border-radius: 50%;
     cursor: pointer;
     display: inline-block;
     padding: 4px;
     position: relative;
     height: 100px;
     width: 100px;
-    background-color: #000;
 }
 
 .navigation label img {
@@ -609,11 +607,6 @@ img {
     height: auto;
     width: auto;
     max-height: 100%;
-}
-
-.navigation > label {
-    border: 1px solid #C31F28;
-    border-radius: 5px !important;
 }
 
 /*  ================================
